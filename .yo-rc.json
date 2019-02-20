@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "elabinaUserAdmin",
+    "packageName": "net.leantechnology.elabina.useradmin",
+    "packageFolder": "net/leantechnology/elabina/useradmin",
+    "serverPort": 8071,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "ar-ly",
+      "fr",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "OWMyY2NkOWFiMzYxMDM0MmEzMzg4MTQ4OTljYjU1YmEwZWRlOTBiNGNiNDVmY2U4NTIxMjhmYzdjMjAyMjE5ZTg1N2Q4N2Y0YmNlMzUzOWI2MzBhOTQzMjkxYWNhYjVjNTUzOTQwMzk0N2U3YTcxMjE5NTcyOWI5ZTVkNjc5M2E=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "bbenaissa",
+  "repository-name": "elabinaUserAdmin-application"
+}
